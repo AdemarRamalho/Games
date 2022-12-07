@@ -5,6 +5,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    font-size: 1.1vw;
+
 }
 
 body {
@@ -30,7 +32,6 @@ header {
     color: rgb(218, 207, 207);
     background-color: #4e254d;
     border: none;
-    font-size: 1.2vw;
 
 }
 
@@ -39,9 +40,8 @@ header {
     justify-content: flex-start;
     align-items: flex-start;
 
+
 }
-
-
 
 .navegacao {
     position: relative;
@@ -52,7 +52,7 @@ header {
     box-shadow: 20px 0 0 #C079BB;
     border-left: 10px solid #242323;
     overflow: hidden;
-    transition: 0.3s;
+    transition: 0.5s;
 }
 
 .navegacao:hover {
@@ -72,8 +72,8 @@ header {
     position: relative;
     list-style: none;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
 }
 
 .navegacao ul li a {
@@ -82,7 +82,6 @@ header {
     width: 100%;
     text-decoration: none;
     color: white;
-
 
 }
 
@@ -106,13 +105,14 @@ header {
 }
 
 .navegacao ul li.ativa {
+
     background-color: #C079BB;
 }
 
 .navegacao ul li.ativa a:before {
     content: '';
     position: absolute;
-    top: -50px;
+    top: -55px;
     right: 0;
     width: 30px;
     height: 30px;
@@ -125,7 +125,7 @@ header {
 .navegacao ul li.ativa a:after {
     content: '';
     position: absolute;
-    bottom: -30px;
+    bottom: -40px;
     right: 0;
     width: 30px;
     height: 30px;
