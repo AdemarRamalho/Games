@@ -8,26 +8,128 @@
 }
 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background: #949494a3;
     min-height: 100vh;
-    background: #1C1818;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #4e254d;
+}
+
+.logo {
+    height: 3vw;
+    margin: 1vw
+}
+
+.butao_stly {
+    display: flex;
+    color: rgb(218, 207, 207);
+    background-color: #4e254d;
+    border: none;
+    font-size: 1.2vw;
 
 }
 
-.navegacao {
-    position: relative;
-    height: 500px;
-    background-color: #242323;
-    width: 300px;
-    box-shadow: 10px 0 0 #C079BB;
+.Barra_lateral {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
 }
+
+
 
 .navegacao {
     position: relative;
-    height: 500px;
+    align-items: flex-end;
+    height: 89.5vh;
     background-color: #242323;
-    width: 300px;
-    box-shadow: 10px 0 0 #C079BB;
+    width: 3%;
+    box-shadow: 20px 0 0 #C079BB;
+    border-left: 10px solid #242323;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.navegacao:hover {
+    width: 28%;
+}
+
+.navegacao ul {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 5%;
+    padding-top: 65px;
+}
+
+.navegacao ul li {
+    position: relative;
+    list-style: none;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.navegacao ul li a {
+    position: relative;
+    display: flex;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navegacao ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+.navegacao ul li a .title {
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.navegacao ul li.ativa {
+    background-color: #C079BB;
+}
+
+.navegacao ul li.ativa a:before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #242323;
+
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #242323;
+}
+
+.navegacao ul li.ativa a:after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    background: #242323;
+    border-radius: 50%;
+    box-shadow: 15px 15px 0 #242323;
 }
