@@ -127,6 +127,6 @@ header {
 
 .navegacao ul li.ativa {
     padding-top: 6px;
-    padding-left: 5px;
+    padding-left: 0px;
     background-color: #C079BB;
 }
