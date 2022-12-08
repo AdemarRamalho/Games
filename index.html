@@ -6,37 +6,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
-    <title>SharedGames</title>
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); </style>
+    <title>Shared Games</title>
 </head>
 
 <body>
     <header>
         <img class="logo" src="img/Logo.jpeg">
-        <input type="button" class="butao_stly" id="botao_pc">
-        <input type="button" class="butao_stly" id="botao_browser">
-        <input type="button" class="butao_stly" id="botao_all">
-        <input type="button" class="butao_stly" id="botao_fav">
+        <input type="button" class="botao_style" id="botao_pc">
+        <input type="button" class="botao_style" id="botao_browser">
+        <input type="button" class="botao_style" id="botao_all">
+        <input type="button" class="botao_style" id="botao_fav">
     </header>
     <main>
-        <section class="Barra_lateral">
-            <article class="fundo_bar">
-                <button class="btn_home">
-                    <img src="img/Home_icon.svg">
-                    <p>Home</p>
-                </button>
-                <p>RPG</p>
-                <p>Shooting</p>
-                <p>MOBA</p>
-
-            </article>
-
+        <section class="barra_lateral">
+                <article class="opcoes_laterais">
+                    <article class="home">
+                        <img src="img/home.svg" class="home_img">
+                        <a href="#" class="b_home">home</a>
+                    </article>
+                    <article class="pvp">
+                        <img src="/img/opcoe.svg" class="pvp_img">
+                        <a href="#" class="b_pvp">pvp</a>
+                    </article>
+                    <article class="mmofps">
+                        <img src="/img/presente.svg" class="mmofps_img">
+                        <a href="#" class="b_mmofps">mmofps</a>
+                    </article>
+                    <article class="survival">
+                        <img src="/img/desconto.svg" class="survival_img">
+                        <a href="#" class="b_home">survival</a>
+                    </article>
+                    <article class="cart">
+                        <img src="img/cart.svg" class="cart_img">
+                        <a href="#" class="b_home">cart</a>
+                    </article>
+                    <article class="fighting">
+                        <img src="/img/info.svg" class="fighting_img">
+                        <a href="#" class="b_home">fighting</a>
+                    </article>
+                    <article class="shooting">
+                        <img src="/img/info.svg" class="shooting_img">
+                        <a href="#" class="b_home">shooting</a>
+                    </article>
+                </article>
         </section>
         <section class="tela_principal">
+            <article class="jogos">
+                <article class="destaque">
+                    <a href="https://www.leagueoflegends.com/pt-br/">
+                        <img src="/img/image 5-1.svg" class="jogo_destaque">
+                    </a>
+                </article>
 
+                <h1 class="t_sessao">Games</h1>
+
+                <article class="l1_jogos">
+                    <article class="jogo_1">
+                        <a href="https://worldoftanks.com/pt-br/">
+                            <img src="/img/image 2.svg" class="jogo_1_img" >
+                        </a>
+                        <h2 class="nome_jogo_1">WORLD OF TANKS</h2>
+                    </article>
+                    <article class="jogo_2">
+                        <a href="https://www.marvelsnap.com/">
+                            <img src="/img/image 6-1.svg" class="jogo_2_img">
+                        </a>
+                        <h2 class="nome_jogo_2">MARVEL SNAP</h2>
+                    </article>
+                    <article class="jogo_3">
+                        <a href="https://multiversus.com/pt-br">
+                            <img src="/img/image 7-1.svg" class="jogo_3_img">
+                        </a>
+                        <h2 class="nome_jogo_3">MULTIVERSUS</h2>
+                    </article>
+                </article>
+                <article class="l2_jogos">
+                    <article class="jogo_4">
+                        <a href="https://worldwar3.com/en">
+                            <img src="/img/image 5.svg" class="jogo_4_img">
+                        </a>
+                        <h2 class="nome_jogo_4">WORLD WAR 3</h2>
+                    </article class="jogo_2">
+                    <article class="jogo_5">
+                        <a href="https://om.forgeofempires.com/foe/br/">
+                            <img src="/img/image 6.svg" class="jogo_5_img">
+                        </a>
+                        <h2 class="nome_jogo_5">FORGE OF EMPIRES</h2>
+                    </article>
+                    <article class="jogo_6">
+                        <a href="https://playvalorant.com/pt-br/">
+                            <img src="/img/image 7.svg" class="jogo_6_img">
+                        </a>
+                        <h2 class="nome_jogo_6">VALORANT</h2>
+                    </article>
+                    <article class="carregar_mais">
+                        <a class="btn_carregar" href="#">Carregar mais </a>
+                    </article>
+                </article>
+            </article>
         </section>
     </main>
-    <footer class="romero">
-
+    <footer class="rodape">
     </footer>
     <script src="js/index.js"></script>
 </body>

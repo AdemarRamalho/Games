@@ -1,9 +1,12 @@
+/*Inicio navbar superior*/
+
 body{
     width: 100%;
     margin: 0%;
     padding: 0%;
 
 }
+
 header{
     display: flex;
     flex-direction: row;
@@ -11,24 +14,242 @@ header{
     width: 100%;
     background-color: #4e254d;
 }
+
 .logo{
     height: 3vw;
     margin: 1vw
 }
-.butao_stly{
+
+.botao_style{
     display: flex;
-    color: rgb(218, 207, 207);
+    font-weight: 400;
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
     background-color: #4e254d;
     border: none;
-    font-size: 1.2vw;
+    font-size: 1.5vw;   
+}
 
-}
-p{
-    color: white;
-    font-size: 1vw;
-}
-.fundo_bar{
-    width: 15vw;
-    height:100%;
+/*fim navbar superior*/
+
+/*Inicio barra lateral*/
+
+.barra_lateral{
+    position: absolute;
+    width: 23vw;
+    height:190%;
     background-color: #030303;
+}
+
+.opcoes_laterais{
+    margin-left: 4vw;
+    margin-top: 1.5vw;
+}
+
+.opcoes_laterais img{
+    width: 2.55vw;
+    height: 2.55vw;
+    padding-top: 3vw;
+}
+
+
+
+.opcoes_laterais a{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    font-size: 3.73vh;
+    text-decoration: none;
+    margin: 3vw;
+}
+
+/*Fim barra lateral*/
+
+
+
+
+/*Inicio jogos*/
+.jogos{
+    position: relative;
+    margin-left: 25%;
+    width: 70%;
+}
+
+
+.destaque{
+    margin-left: 15.7%;
+    padding-top: 3%;
+}
+
+
+.jogo_destaque{
+    height: 22vw;
+}
+
+
+.t_sessao{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.5vw;
+    color: #7E0076;
+    margin-left: 5%;
+    height: 2vw;
+}
+
+
+.l1_jogos{
+    position: relative;
+    margin-left: 5%;
+    width: 100%;
+}
+
+.l1_jogos img{
+    width: 20vw;
+    height: 14vw;
+}
+
+.jogo_1{
+    display: inline-block;
+}
+
+.nome_jogo_1{
+    width: 13.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 3.35vw;
+}
+
+.jogo_2{
+    display: inline-block;
+    margin-left: 4vw;
+}
+
+.nome_jogo_2{
+    width: 13.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 4.8vw;
+}
+
+
+.jogo_3{
+    display: inline-block;
+    margin-left: 4vw;
+}
+
+.nome_jogo_3{
+    width: 13.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 5.2vw;
+}
+
+
+
+.l2_jogos{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 100%;
+}
+
+.l2_jogos img{
+    width: 20vw;
+    height: 14vw;
+}
+
+
+.jogo_4{
+    display: inline-block;
+}
+
+.nome_jogo_4{
+    width: 13.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 4.4vw;
+}
+
+.jogo_5{
+    display: inline-block;
+    margin-left: 4vw;
+}
+
+.nome_jogo_5{
+    width: 15.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 3.4vw;
+}
+
+
+.jogo_6{
+    display: inline-block;
+    margin-left: 4vw;
+}
+
+.nome_jogo_6{
+    width: 7.5vw;
+    font-family: 'Poppins';
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5vw;
+    color: #680366;
+    padding-left: 6.5vw;
+}
+
+/*Fim jogos*/
+
+/*inicio carregar mais*/
+
+.carregar_mais{
+    margin-left: 25.7vw;
+    margin-top: 9vw;
+}
+
+
+.btn_carregar{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;   
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    background: #C079BB;
+    border-radius: 12px;
+    width: 12vw;
+}
+
+/*fim carregar mais*/
+
+
+.rodape{
+    margin-top: 8%;
+    background: #4E254D;
+    width: 100%;
+    height: 7vw;
 }
