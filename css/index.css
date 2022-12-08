@@ -36,10 +36,12 @@ header {
     border: none;
     width: 8vw;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 
 .butao_stly:hover {
+
     background: #C079BB;
 }
 
@@ -124,6 +126,7 @@ header {
 }
 
 .navegacao ul li.ativa {
-
+    padding-top: 6px;
+    padding-left: 5px;
     background-color: #C079BB;
 }
