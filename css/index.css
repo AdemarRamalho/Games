@@ -37,9 +37,16 @@ header {
     width: 8vw;
     border-radius: 10px;
     cursor: pointer;
-
 }
-
+.mudar{
+    background-color: #C079BB;
+    margin: 1.5vw;
+    border: none;
+    width: 8vw;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(218, 207, 207);
+}
 .butao_stly:hover {
 
     background: #C079BB;
@@ -56,7 +63,7 @@ header {
 .navegacao {
     position: relative;
     align-items: flex-end;
-    height: 100vh;
+    height: 100%;
     background-color: #242323;
     width: 3%;
     box-shadow: 1.5vw 0 0 #C079BB;

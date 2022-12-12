@@ -6,6 +6,5 @@ let botao_all = document.getElementById("botao_all");
 botao_all.value = "All"
 let botao_fav = document.getElementById("botao_fav");
 botao_fav.value = "Favoritos"
-let btn_home = document.getElementById("btn_home");
-btn_home.value = "HOME"
+
 
